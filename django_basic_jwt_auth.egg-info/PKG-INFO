@@ -1,55 +1,23 @@
 Metadata-Version: 1.1
 Name: django-basic-jwt-auth
-Version: 0.1
+Version: 0.4
 Summary: Accounts is a Django app to authenticate user using JWT Toke on custom users.
 Home-page: https://github.com/niomwungeri-fabrice/django-basic-jwt-auth
 Author: Fabrice NIYOMWUNGERI
 Author-email: niomwungeri.fabrice@gmail.com
-License: MIT
-Description: =====
+License: UNKNOWN
+Description: ========
         Accounts
-        =====
+        ========
         
-        Accounts is a Django app to authenticate user using JWT Toke on custom users. 
-        
-        Quick start
-        -----------
-        1. Add "accounts" to your INSTALLED_APPS setting like this::
-        
-            INSTALLED_APPS = [
-                ...
-                'accounts',
-            ]
-        2. Include the polls URLconf in your project urls.py like this::
-        
-        app_name = 'accounts'
-        
-        urlpatterns = [
-            path('register/', views.CreateAccountView.as_view(),
-                 name='user-register'),
-            path('token/', jwt_views.TokenObtainPairView.as_view(),
-                 name='token_obtain_pair'),
-            path('token/refresh/', jwt_views.TokenRefreshView.as_view(),
-                 name='token_refresh'),
-            path('users/', views.UserListView.as_view(),
-                 name='user-list'),
-            path('users/<uuid:id>/', views.UserDetailView.as_view(),
-                 name='user-detail'),
-            path('me/', views.CurrentUserView.as_view(),
-                 name='me'),
-        ]
-        
-        3. Run `python manage.py migrate` to create the accounts models.
-        
-        4. Start the development server
-        
+        Accounts is a Django app to authenticate user using JWT Toke on custom users.
         
 Platform: UNKNOWN
 Classifier: Environment :: Web Environment
 Classifier: Framework :: Django
 Classifier: Framework :: Django :: 2.2
 Classifier: Intended Audience :: Developers
-Classifier: License :: OSI Approved :: MIT
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
 Classifier: Operating System :: OS Independent
 Classifier: Programming Language :: Python
 Classifier: Programming Language :: Python :: 3

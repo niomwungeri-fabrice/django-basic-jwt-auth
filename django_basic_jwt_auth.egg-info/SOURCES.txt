@@ -1,5 +1,5 @@
 MANIFEST.in
-README.rst
+README.md
 setup.cfg
 setup.py
 accounts/__init__.py
