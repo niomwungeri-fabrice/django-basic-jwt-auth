@@ -60,3 +60,4 @@ target/
 
 # python venv
 venv/
+django_basic_jwt_auth.egg-info/
